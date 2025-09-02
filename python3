@@ -1,0 +1,11 @@
+>>>import requests
+
+>>＞site = requests. get ("http://google.com.br")
+
+>>＞＞fite.content
+
+>>＞site.headers
+
+>>>site.status_code
+
+>>>site. headers ['Server']
