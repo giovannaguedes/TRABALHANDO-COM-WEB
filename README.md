@@ -18,7 +18,7 @@ Você verá o prompt interativo >>>.
 >>> import requests
 
 3. Acessar um site
->>> site = requests.get("http://google.com.br")
+>>> site = requests.get("http://nome do site aqui.com.br")
 
 4. Ver conteúdo da página
 >>> site.content
