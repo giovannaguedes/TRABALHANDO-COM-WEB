@@ -1,0 +1,51 @@
+WORKING-WITH-WEB
+
+Interactive code using Python3, no editor required.
+
+⚠️ For educational purposes only • Developed by M!ss s3c
+
+📝 Guide: Exploring Websites in Python (Interactive Mode)
+
+1. Open Python Interactive Mode
+
+In the terminal, type:
+
+python3
+
+
+You will see the interactive prompt: >>>.
+
+2. Import the Requests library
+>>> import requests
+
+3. Access a website
+>>> site = requests.get("http://google.com.br")
+
+4. View page content
+>>> site.content
+
+5. View HTTP headers
+>>> site.headers
+
+6. Check response status
+>>> site.status_code
+
+7. Check the web server used by the site
+>>> site.headers['Server']
+
+8. Exit interactive mode
+>>> exit()
+
+👉 What you learned here
+
+requests.get() → sends an HTTP request to the site.
+
+.content → returns the HTML content of the page.
+
+.headers → returns the HTTP headers.
+
+.status_code → returns the HTTP status code.
+
+.headers['Server'] → identifies the web server used by the site.
+
+Python interactive mode is useful for quick tests without creating files.
