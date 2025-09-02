@@ -1,6 +1,6 @@
 >>>import requests
 
->>＞site = requests. get ("http://google.com.br")
+>>＞site = requests. get ("http://nome do site aqui.com.br")
 
 >>＞＞fite.content
 
